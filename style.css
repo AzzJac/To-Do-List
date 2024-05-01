@@ -1,0 +1,137 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    /* Utilisation de la police Arial ou sans-serif */
+    background-color: #f4f4f4;
+    /* Couleur de fond gris clair */
+    margin: 0;
+    /* Suppression de toutes les marges par défaut */
+    padding: 0;
+    /* Suppression de tous les espacements internes par défaut */
+}
+
+/* Style du conteneur principal */
+.container {
+    max-width: 600px;
+    /* Largeur maximale du conteneur */
+    margin: 50px auto;
+    /* Centrage du conteneur avec une marge supérieure de 50px et une marge inférieure automatique */
+    background-color: #fff;
+    /* Couleur de fond blanche */
+    padding: 20px;
+    /* Espacement intérieur de 20px */
+    border-radius: 8px;
+    /* Bordure arrondie */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Ombre légère autour du conteneur */
+}
+
+/* Style pour l'en-tête principal */
+h1 {
+    text-align: center;
+    /* Centrage du texte */
+    color: #333;
+    /* Couleur du texte gris foncé */
+}
+
+/* Style pour le conteneur des éléments d'entrée */
+.input-wrapper {
+    display: flex;
+    /* Affichage en mode flexbox */
+    margin-bottom: 20px;
+    /* Marge inférieure de 20px */
+    justify-content: space-between;
+    /* Alignement des éléments avec un espace entre eux */
+}
+
+/* Style pour la zone de texte */
+input[type="text"] {
+    flex-grow: 1;
+    /* Extension de la zone de texte pour remplir l'espace disponible */
+    flex-basis: 70%;
+    /* Largeur de base de 70% */
+    padding: 10px;
+    /* Espacement interne de 10px */
+    border: 1px solid #ccc;
+    /* Bordure grise de 1px */
+    border-radius: 5px;
+    /* Bordure arrondie */
+    font-size: 16px;
+    /* Taille de la police */
+    outline: none;
+    /* Suppression de la bordure de focus par défaut */
+}
+
+/* Style pour les boutons */
+button {
+    margin-left: 10px;
+    /* Marge à gauche de 10px */
+    padding: 10px 20px;
+    /* Espacement interne de 10px en haut/bas et de 20px à gauche/droite */
+    border-radius: 5px;
+    /* Bordure arrondie */
+    cursor: pointer;
+    /* Curseur de type pointeur au survol */
+    font-size: 16px;
+    /* Taille de la police */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transition en douceur pour le changement de couleur */
+    background-color: #e0e0e0;
+    /* Couleur de fond gris pâle */
+    color: #fff;
+    /* Couleur du texte blanc */
+    border: 1px solid #ccc;
+    /* Bordure grise de 1px */
+}
+
+/* Style pour les listes */
+ul {
+    padding: 0;
+    /* Suppression du remplissage de la liste */
+    list-style-type: none;
+    /* Suppression des puces de la liste */
+}
+
+/* Style pour les éléments de liste */
+li {
+    margin-bottom: 10px;
+    /* Marge inférieure de 10px */
+    padding: 15px;
+    /* Espacement interne de 15px */
+    background-color: #f9f9f9;
+    /* Couleur de fond gris très clair */
+    border-radius: 5px;
+    /* Bordure arrondie */
+    display: flex;
+    /* Affichage en mode flexbox */
+    align-items: center;
+    /* Alignement vertical des éléments */
+}
+
+/* Style pour les éléments span */
+span {
+    flex-grow: 1;
+    /* Extension du span pour remplir l'espace disponible */
+    font-size: 18px;
+    /* Taille de la police */
+}
+
+/* Style pour les boutons d'action */
+button.action {
+    margin-left: 10px;
+    /* Marge à gauche de 10px */
+    padding: 8px 12px;
+    /* Espacement interne de 8px en haut/bas et de 12px à gauche/droite */
+    border-radius: 3px;
+    /* Bordure arrondie */
+    font-size: 14px;
+    /* Taille de la police */
+    transition: background-color 0.3s;
+    /* Transition en douceur pour le changement de couleur */
+}
+
+/* Style pour les cases à cocher */
+input[type="checkbox"] {
+    margin-right: 10px;
+    /* Marge à droite de 10px */
+}

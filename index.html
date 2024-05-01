@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Déclaration des métadonnées -->
+    <meta charset="UTF-8"> <!-- Encodage des caractères en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajustement de la vue pour les appareils mobiles -->
+    <title>To-Do List</title> <!-- Titre de la page -->
+    <link rel="stylesheet" href="style.css"> <!-- Liaison du fichier CSS externe -->
+</head>
+
+<body>
+    <!-- Contenu principal de la page -->
+    <div class="container"> <!-- Conteneur principal -->
+        <h1>To-Do List</h1> <!-- Titre de la liste -->
+        <div class="input-wrapper"> <!-- Conteneur pour l'entrée de la tâche -->
+            <input type="text" id="todoInput" placeholder="Ajouter une tâche ...">
+            <!-- Champ de saisie pour ajouter une tâche -->
+            <button onclick="ajouterTodo()" style="background-color: green">Ajouter</button>
+            <!-- Bouton pour ajouter une tâche -->
+        </div>
+        <ul id="todoList"> <!-- Liste des tâches -->
+        </ul>
+    </div>
+
+    <!-- Liaison du fichier JavaScript externe -->
+    <script src="main.js"></script>
+</body>
+
+</html>
